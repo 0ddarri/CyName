@@ -6,8 +6,11 @@ using UnityEngine.UI;
 public class ChangeName : MonoBehaviour
 {
     [SerializeField] InputField g_Input;
-    [SerializeField] InputField g_Output;
+    [SerializeField] Text g_Output;
+    [SerializeField] Button g_OutputBtn;
     [SerializeField] Button g_ChangeButton;
+
+    [SerializeField] CopyText g_CopyText;
 
     public void Initialize()
     {
@@ -19,6 +22,7 @@ public class ChangeName : MonoBehaviour
     void Start()
     {
         g_ChangeButton.onClick.AddListener(OnClick_Change);
+        g_OutputBtn.onClick.AddListener(OnClick_Output);
     }
 
     void OnClick_Change()
@@ -36,6 +40,12 @@ public class ChangeName : MonoBehaviour
         }
 
         g_Output.text = result;
+    }
+
+    void OnClick_Output()
+    {
+        ClipBoard.clip = g_Output.text;
+        g_CopyText.Initialize();
     }
 
     // Update is called once per frame
