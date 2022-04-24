@@ -29,7 +29,7 @@ public class ChangeName : MonoBehaviour
     {
         string input = g_Input.text;
 
-        Debug.Log(input[2]);
+        Debug.Log(input);
 
         string result = string.Empty;
 

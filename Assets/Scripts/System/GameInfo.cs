@@ -40,7 +40,7 @@ public class GameInfo
             {
                 int count = g_WordInfo[i].Length;
                 Debug.Log("Count : " + count);
-                int num = UnityEngine.Random.Range(1, count);
+                int num = UnityEngine.Random.Range(0, count);
                 result = g_WordInfo[i][num];
                 Debug.Log("Find : " + result);
                 break;
