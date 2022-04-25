@@ -46,6 +46,7 @@ public class GameInfo
                 break;
             }
         }
+        if (result == "") result = originWord;
         return result;
     }
 }
