@@ -1,5 +1,7 @@
 # CyName
 싸이월드감성 이름변환 프로그램입니다.
+## 릴리즈 노트
+https://github.com/0ddarri/CyName/releases
 
 # 대응되는 단어
 - 현재 대응되는 단어들입니다.
