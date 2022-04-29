@@ -3,6 +3,9 @@
 ## 릴리즈 노트
 https://github.com/0ddarri/CyName/releases
 
+## [대응단어 건의하기](https://github.com/0ddarri/CyName/issues/1)
+위 텍스트를 클릭하세요!
+
 # 대응되는 단어
 - 현재 대응되는 단어들입니다.
 - 계속해서 업데이트할 예정입니다.
